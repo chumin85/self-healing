@@ -1,7 +1,3 @@
-Certainly! Here's an updated version of your `README.md`:
-
----
-
 # Self-Healing Infrastructure with Terraform and AWS
 
 This project provides a framework for creating a self-healing infrastructure on AWS using Terraform, Lambda functions, CloudWatch Events, and Systems Manager (SSM) Automation documents. When specific health checks fail, remediation steps are automatically initiated to resolve the issues without human intervention.
