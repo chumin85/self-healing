@@ -69,4 +69,4 @@ The instance ID and other parameters can be customized in the `main.tf` Terrafor
 Make sure IAM roles and policies grant appropriate permissions:
 
 - The Lambda function should have permissions to invoke the SSM Automation document and to fetch metrics from CloudWatch.
-- The SSM Automation execution role must have permissions to perform the specified remediation actions (e.g., stopping and restarting EC2 instances).s
+- The SSM Automation execution role must have permissions to perform the specified remediation actions (e.g., stopping and restarting EC2 instances).
